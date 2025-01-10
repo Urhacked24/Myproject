@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <h1>BLOOD BANK</h1>
+        </div>
+        <div class="right">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkBtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="form-container">
+            <h2>Donate Blood</h2>
+            <form id="donationForm">
+                <label for="donorName">Donor Name:</label>
+                <input type="text" id="donorName" required>
+                <label for="donorcontactnumber">Donor contact number:</label>
+                <input type="text" id="donorcontactnumber" required>
+                <label for="donoraddress">Donor Address:</label>
+                <input type="text" id="donoraddress" required>
+                
+
+                <label for="bloodType">Blood Type:</label>
+                <select id="bloodType" required>
+                    <option value="A+">A+</option>
+                    <option value="B+">B+</option>
+                    <option value="O+">O+</option>
+                    <option value="AB+">AB+</option>
+                    <option value="A-">A-</option>
+                    <option value="B-">B-</option>
+                    <option value="O-">O-</option>
+                    <option value="AB-">AB-</option>
+                </select>
+
+                <button type="submit">Donate</button>
+            </form>
+        </div>
+
+        <div class="list-container">
+            <h2>Available Blood</h2>
+            <ul id="bloodList">
+                
+                <!-- Blood donations will be displayed here -->
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p style="color: white;">BLOOD BANK.COM</p>
+        <p><a href="#">Connect with us</a>.<br><a href="#">Instagram -->  <li><a style="color: yellow; href="#"> @its_kash_3.0 , <br> , </a></li></a></li></a><br><a href="#">Facebook</a><br><a href="#">Tweeter</a><br></p>
+    made with &hearts; by VIKASH MEKCHAND<br>
+    &#169;1993-2023,BLOOD BANK.com
+</footer>
+
+</body>
+</html>
